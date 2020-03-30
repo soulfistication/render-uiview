@@ -31,7 +31,7 @@ class CoDiProtoView: UIView {
     beneficiaryLabel.text = model.beneficiary
     amountLabel.text = model.amount
     conceptLabel.text = model.concept
-    qrImageView.image = model.qrImage
+//    qrImageView.image = model.qrImage
   }
 
 }

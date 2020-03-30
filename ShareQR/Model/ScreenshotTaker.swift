@@ -28,16 +28,16 @@ struct ScreenshotTaker {
 
     codiOfflineView.setNeedsLayout()
     
-    let renderer = UIGraphicsImageRenderer(bounds: codiOfflineView.bounds)
-
-    let snapshot = renderer.image { _ in
-      codiOfflineView.drawHierarchy(in: codiOfflineView.frame, afterScreenUpdates: true)
+    let format = UIGraphicsImageRendererFormat.default()
+    format.scale = 1.0 // Not retina 2x
+    
+    let renderer = UIGraphicsImageRenderer(size: codiOfflineView.bounds.size, format: format)
+    
+    let snapshot = renderer.image { context in
+      codiOfflineView.layer.render(in: context.cgContext)
     }
 
-    if let resizedToHalf = UIView.resizeToHalf(image: snapshot) {
-      return resizedToHalf.jpegData(compressionQuality: 1.0)
-    }
-    return nil
+    return snapshot.jpegData(compressionQuality: 1.0)
   }
 
 }
