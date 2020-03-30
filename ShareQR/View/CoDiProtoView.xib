@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Interstate-Light_0.ttf">
+            <string>InterstateMLight</string>
+        </array>
+        <array key="Interstate-Regular_0.ttf">
+            <string>InterstateM</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CoDiProtoView" customModule="CitiMobileApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="800" height="1200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="citibanamexLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Pv4-UE-cPo">
+                    <rect key="frame" x="225" y="37" width="350" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="OjH-m5-bxl"/>
+                        <constraint firstAttribute="width" constant="350" id="bLH-o2-06g"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z5T-ae-4ao">
+                    <rect key="frame" x="92.5" y="131" width="615" height="615"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="615" id="Gdq-jl-5QT"/>
+                        <constraint firstAttribute="height" constant="615" id="jfE-Xv-Ngl"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soportado por CoDi®" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNL-m5-qDe">
+                    <rect key="frame" x="241.5" y="766" width="317.5" height="32"/>
+                    <fontDescription key="fontDescription" name="InterstateM" family="InterstateM" pointSize="32"/>
+                    <color key="textColor" red="0.32456913590431213" green="0.33745852112770081" blue="0.35408008098602295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GA1-zq-D6P" userLabel="Separator View">
+                    <rect key="frame" x="0.0" y="855" width="800" height="2"/>
+                    <color key="backgroundColor" red="0.8902164101600647" green="0.88737887144088745" blue="0.90068656206130981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="R4g-9X-MG5"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7m6-we-nl5" userLabel="Separator View">
+                    <rect key="frame" x="0.0" y="970" width="800" height="2"/>
+                    <color key="backgroundColor" red="0.89021641019999997" green="0.88737887140000005" blue="0.90068656209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="BSA-ha-Te4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Haa-1d-A7B" userLabel="Separator View">
+                    <rect key="frame" x="0.0" y="1085" width="800" height="2"/>
+                    <color key="backgroundColor" red="0.89021641019999997" green="0.88737887140000005" blue="0.90068656209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="rnc-vz-Vk1"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beneficiario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdd-F8-M6G">
+                    <rect key="frame" x="43" y="897" width="177.5" height="33"/>
+                    <fontDescription key="fontDescription" name="InterstateMLight" family="InterstateMLight" pointSize="33"/>
+                    <color key="textColor" red="0.32456913590000003" green="0.33745852110000002" blue="0.35408008099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZt-yo-E9R">
+                    <rect key="frame" x="43" y="1012" width="94" height="33"/>
+                    <fontDescription key="fontDescription" name="InterstateMLight" family="InterstateMLight" pointSize="33"/>
+                    <color key="textColor" red="0.32456913590000003" green="0.33745852110000002" blue="0.35408008099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concepto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkf-4N-cri">
+                    <rect key="frame" x="43" y="1127" width="140" height="33"/>
+                    <fontDescription key="fontDescription" name="InterstateMLight" family="InterstateMLight" pointSize="33"/>
+                    <color key="textColor" red="0.32456913590000003" green="0.33745852110000002" blue="0.35408008099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$2,300.00" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D73-id-d1u">
+                    <rect key="frame" x="609" y="1012" width="154" height="33"/>
+                    <fontDescription key="fontDescription" name="InterstateM" family="InterstateM" pointSize="31"/>
+                    <color key="textColor" red="0.32456913590000003" green="0.33745852110000002" blue="0.35408008099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quesadillas" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="C1L-De-jPs">
+                    <rect key="frame" x="599" y="1117" width="164" height="53"/>
+                    <fontDescription key="fontDescription" name="InterstateM" family="InterstateM" pointSize="31"/>
+                    <color key="textColor" red="0.32456913590000003" green="0.33745852110000002" blue="0.35408008099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JAVIER ALVAREZ GARCIA" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="kj0-eh-No2">
+                    <rect key="frame" x="385" y="887" width="378" height="53"/>
+                    <fontDescription key="fontDescription" name="InterstateM" family="InterstateM" pointSize="31"/>
+                    <color key="textColor" red="0.32456913590000003" green="0.33745852110000002" blue="0.35408008099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RrZ-aY-BAU" userLabel="Separator View">
+                    <rect key="frame" x="0.0" y="1198" width="800" height="2"/>
+                    <color key="backgroundColor" red="0.89021641019999997" green="0.88737887140000005" blue="0.90068656209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="oTs-Du-NaU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7m6-we-nl5" firstAttribute="top" secondItem="pdd-F8-M6G" secondAttribute="bottom" constant="40" id="04C-lo-RrV"/>
+                <constraint firstItem="z5T-ae-4ao" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="1NE-Fz-e5Q"/>
+                <constraint firstItem="D73-id-d1u" firstAttribute="top" secondItem="7m6-we-nl5" secondAttribute="bottom" constant="40" id="3EV-yN-78U"/>
+                <constraint firstItem="D73-id-d1u" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bZt-yo-E9R" secondAttribute="trailing" constant="350" id="3jk-qw-tRm"/>
+                <constraint firstItem="zkf-4N-cri" firstAttribute="leading" secondItem="bZt-yo-E9R" secondAttribute="leading" id="3zR-rS-4J3"/>
+                <constraint firstAttribute="bottom" secondItem="Haa-1d-A7B" secondAttribute="bottom" constant="113" id="43v-nZ-QUl"/>
+                <constraint firstItem="z5T-ae-4ao" firstAttribute="top" secondItem="Pv4-UE-cPo" secondAttribute="bottom" constant="40" id="6UM-J8-jGC"/>
+                <constraint firstItem="C1L-De-jPs" firstAttribute="top" secondItem="Haa-1d-A7B" secondAttribute="bottom" constant="30" id="8c7-w3-DU1"/>
+                <constraint firstAttribute="leading" secondItem="Haa-1d-A7B" secondAttribute="leading" id="A6r-Kc-syv"/>
+                <constraint firstItem="GA1-zq-D6P" firstAttribute="top" relation="lessThanOrEqual" secondItem="dNL-m5-qDe" secondAttribute="bottom" constant="60" id="C3l-pN-AU6"/>
+                <constraint firstItem="Haa-1d-A7B" firstAttribute="top" secondItem="7m6-we-nl5" secondAttribute="bottom" constant="113" id="DU2-qD-sY7"/>
+                <constraint firstItem="kj0-eh-No2" firstAttribute="top" secondItem="GA1-zq-D6P" secondAttribute="bottom" constant="30" id="Dbb-3o-hOF"/>
+                <constraint firstItem="Pv4-UE-cPo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="37" id="GYo-xS-Ftt"/>
+                <constraint firstItem="kj0-eh-No2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pdd-F8-M6G" secondAttribute="trailing" constant="100" id="Gk6-WV-WEf"/>
+                <constraint firstAttribute="bottom" secondItem="C1L-De-jPs" secondAttribute="bottom" constant="30" id="K8g-hv-3x1"/>
+                <constraint firstItem="Haa-1d-A7B" firstAttribute="top" secondItem="bZt-yo-E9R" secondAttribute="bottom" constant="40" id="LcH-Ia-Zh7"/>
+                <constraint firstItem="zkf-4N-cri" firstAttribute="top" secondItem="Haa-1d-A7B" secondAttribute="bottom" constant="40" id="M4F-De-GlI"/>
+                <constraint firstItem="C1L-De-jPs" firstAttribute="trailing" secondItem="D73-id-d1u" secondAttribute="trailing" id="MFK-Yr-sSa"/>
+                <constraint firstItem="bZt-yo-E9R" firstAttribute="top" secondItem="7m6-we-nl5" secondAttribute="bottom" constant="40" id="OJh-E7-FNO"/>
+                <constraint firstItem="pdd-F8-M6G" firstAttribute="top" secondItem="GA1-zq-D6P" secondAttribute="bottom" constant="40" id="SQB-r1-BFr"/>
+                <constraint firstItem="bZt-yo-E9R" firstAttribute="leading" secondItem="pdd-F8-M6G" secondAttribute="leading" id="Sfe-GO-fOW"/>
+                <constraint firstItem="C1L-De-jPs" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zkf-4N-cri" secondAttribute="trailing" constant="20" id="Sx2-V6-y9h"/>
+                <constraint firstItem="D73-id-d1u" firstAttribute="trailing" secondItem="kj0-eh-No2" secondAttribute="trailing" id="VUP-1X-kf3"/>
+                <constraint firstItem="Pv4-UE-cPo" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Vhr-fU-rjg"/>
+                <constraint firstItem="GA1-zq-D6P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XOA-0h-vP5"/>
+                <constraint firstAttribute="trailing" secondItem="kj0-eh-No2" secondAttribute="trailing" constant="37" id="aZ1-cN-dka"/>
+                <constraint firstItem="dNL-m5-qDe" firstAttribute="centerX" secondItem="z5T-ae-4ao" secondAttribute="centerX" id="ccJ-DL-N2G"/>
+                <constraint firstAttribute="trailing" secondItem="Haa-1d-A7B" secondAttribute="trailing" id="cn1-Th-x3Q"/>
+                <constraint firstItem="Haa-1d-A7B" firstAttribute="top" secondItem="D73-id-d1u" secondAttribute="bottom" constant="40" id="d0R-NF-MNn"/>
+                <constraint firstAttribute="trailing" secondItem="7m6-we-nl5" secondAttribute="trailing" id="eAH-im-C1X"/>
+                <constraint firstItem="7m6-we-nl5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="f9B-44-a7U"/>
+                <constraint firstAttribute="trailing" secondItem="GA1-zq-D6P" secondAttribute="trailing" id="fCw-xt-dGk"/>
+                <constraint firstItem="pdd-F8-M6G" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="43" id="fFU-57-e1P"/>
+                <constraint firstItem="7m6-we-nl5" firstAttribute="top" secondItem="kj0-eh-No2" secondAttribute="bottom" constant="30" id="p7J-4Q-7d1"/>
+                <constraint firstItem="7m6-we-nl5" firstAttribute="top" secondItem="GA1-zq-D6P" secondAttribute="bottom" constant="113" id="u2a-Xh-Fd2"/>
+                <constraint firstItem="RrZ-aY-BAU" firstAttribute="top" secondItem="Haa-1d-A7B" secondAttribute="bottom" constant="111" id="w05-uX-JQp"/>
+                <constraint firstAttribute="trailing" secondItem="RrZ-aY-BAU" secondAttribute="trailing" id="wjn-zo-jKS"/>
+                <constraint firstAttribute="bottom" secondItem="zkf-4N-cri" secondAttribute="bottom" constant="40" id="x2V-qp-9jo"/>
+                <constraint firstItem="dNL-m5-qDe" firstAttribute="top" secondItem="z5T-ae-4ao" secondAttribute="bottom" constant="20" id="yk5-tB-kCw"/>
+                <constraint firstAttribute="leading" secondItem="RrZ-aY-BAU" secondAttribute="leading" id="ynt-ne-cRy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="amountLabel" destination="D73-id-d1u" id="Cj1-JW-qzJ"/>
+                <outlet property="beneficiaryLabel" destination="kj0-eh-No2" id="X5O-61-e8g"/>
+                <outlet property="conceptLabel" destination="C1L-De-jPs" id="or3-pP-Znp"/>
+                <outlet property="qrImageView" destination="z5T-ae-4ao" id="Vh7-aQ-Zr3"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="citibanamexLogo" width="350" height="54"/>
+    </resources>
+</document>
